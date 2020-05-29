@@ -5,40 +5,42 @@
     <title>Contáctate con nosotros</title>
 </head>
 <body>
-    <header>
-        <div class="Header">
-            <h1>cuidar T</h1>
-            <img src="img/cuidart.jpeg" alt="Logo">
-       </div>
-    </header>
+    <div class= "container">
+        
+        <section class="logo">
+            <img class="logo" src="img/cuidart3.png" alt="">
+        </section>
 
-    <nav>
-        <div class="nav">
+        <header class="header">
+            <h2>CUIDAR T</h2>
+        </header>
+        
+        <aside class="sidebar">  
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="enfermedades.html">Enfermedades</a> </li>
                 <li><a href="hospitales.html">Hospitales</a></li>
                 <li><a href="Contacto.html">Contacto</a></li>
             </ul>
-        </div>
-    </nav>
+        </aside>
 
     <main>
         <section>
             <article>
                 <h2>CONTACTO</h2>
                 <form>
-                    <label for="campoTexto1"> Nombre </label>
-                    <input type="name" id="campoTexto1">
+                    <label for="nombre"> Nombre:</label>
+                    <input type="text" placeholder="Escriba su nombre" maxlength="15" name="nombre" id="nombre">
                     <br>
-                    <label for="campoTexto2"> Apellido</label>
-                    <input type="surname" id="campoTexto2">
+                    <label for="apellido"> Apellido:</label>
+                    <input type="text" placeholder="Escriba su apellido" maxlength="15" name="apellido" id="apellido">
                     <br>
-                    <label for="campoTexto2"> Email</label>
-                    <input type="email" id="campoTexto2">
+                    <label for="email"> Email:</label>
+                    <input type="email" placeholder="Escriba su email" maxlength="15"name="email" id="email">
                     <br>
                     <div class="botones">
-                        <input type="button" value ="ENVIAR" id="Enviar">
+                        <input type="submit" value ="Enviar">
+                       <!-- <input type="submit">-->
                     </div>
                 </form>
             </article>
@@ -62,28 +64,26 @@
         </section>
     </main>
     
-    <footer>    
-        <div class="container">
-         <div class= "datos">
-                <ul>
-                    <li>Mauro Ramos 40007748</li>
-                    <li>Marcela Gonzalez 41690197</li>
-                </ul>
-         </div>
-         <div class = "menu inferior">
-            <div class="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li> <a href="enfermedades.html">Enfermedades</a> </li>
-                    <li><a href="hospitales.html">Hospitales</a></li>
-                    <li><a href="Contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-         </div>
-         <div class= "links">
-
-         </div>
+    <footer class="footer">
+        <div class="datos">
+            <ul>
+                <li>Mauro Ramos 40007748</li>
+                <li>Marcela Gonzalez 41690197</li>
+            </ul>
+        </div>
+        <div class="menuinf">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="enfermedades.html">Enfermedades</a> </li>
+                <li><a href="hospitales.html">Hospitales</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/cuidart">instagram</a>
+            <a href="https://www.facebook.com/cuidart">facebook</a>
         </div>
     </footer>
+</div>
 </body>
 </html>
